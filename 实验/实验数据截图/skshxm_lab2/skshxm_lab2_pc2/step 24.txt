@@ -1,0 +1,16 @@
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+ switchport access vlan 2
+!
+interface GigabitEthernet0/3
+!
+interface GigabitEthernet0/4
+!
+interface GigabitEthernet0/5
+ switchport mode trunk
+ spanning-tree vlan 1 port-priority 16
+!
+interface GigabitEthernet0/6
+ switchport mode trunk
+ spanning-tree vlan 2 port-priority 16

@@ -1,0 +1,13 @@
+interface GigabitEthernet0/1
+ no ip address
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1.1
+ encapsulation dot1Q 1 native
+ ip address 10.0.1.11 255.255.255.0
+!
+interface GigabitEthernet0/1.2
+ encapsulation dot1Q 2
+ ip address 10.0.2.11 255.255.255.0
+!

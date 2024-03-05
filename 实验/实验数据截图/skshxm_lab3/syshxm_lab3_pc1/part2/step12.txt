@@ -1,0 +1,13 @@
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+!
+interface GigabitEthernet0/3
+!
+interface GigabitEthernet0/4
+ switchport access vlan 2
+!
+interface GigabitEthernet0/5
+!
+interface GigabitEthernet0/6
+ switchport mode trunk
